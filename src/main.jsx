@@ -411,7 +411,7 @@ function Footer() {
           <h3>Reach Us</h3>
           <p>support@srimayam.com</p>
           <p>+91 98765 43210</p>
-          <p>Chennai, Tamil Nadu</p>
+          <p>Hyderabad, Telangana</p>
         </div>
       </div>
       <p className="copyright">© 2026 Sri Mayam. All rights reserved.</p>
