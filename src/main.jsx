@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
+import AuthAccess from "./AuthAccess";
 import { fetchCollection, submitBooking } from "./api";
 import {
   fallbackBenefits,
@@ -15,6 +16,7 @@ const navItems = [
   { href: "#how-it-works", label: "How it Works" },
   { href: "#trust", label: "Why Sri Mayam" },
   { href: "#faqs", label: "FAQs" },
+  { href: "#login", label: "Login" },
 ];
 
 function Header() {
@@ -461,6 +463,7 @@ function App() {
         <Trust />
         <Testimonials testimonials={content.testimonials} />
         <BookingForm sevas={content.sevas} />
+        <AuthAccess />
         <Faqs faqs={content.faqs} />
       </main>
       <Footer />
